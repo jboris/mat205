@@ -46,7 +46,7 @@ while n > 2:
     x.append((r-sqrt(r**2+4*s))/2)
     n = n - 2
     a = b[2:]
-if len(a) == 3:
+if n == 2:
     A = a[2]
     B = a[1]
     C = a[0]
