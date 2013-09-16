@@ -38,13 +38,13 @@ while n > 2:
         d = c[1]*c[3]-c[2]**2
         dr = (-b[0]*c[3]+b[1]*c[2])/d
         ds = (-b[1]*c[1]+b[0]*c[2])/d
-        r = r+dr
-        s = s+ds
+        r += dr
+        s += ds
         er = dr/r
         es = ds/s
     x.append((r+sqrt(r**2+4*s))/2)
     x.append((r-sqrt(r**2+4*s))/2)
-    n = n - 2
+    n -= 2
     a = b[2:]
 if n == 2:
     A = a[2]
