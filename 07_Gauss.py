@@ -60,6 +60,19 @@ def leer_vector(n):
     return vector
 
 
+def mostrar_matriz(matriz):
+    alto = len(matriz)
+    nfilas = 0
+    while nfilas < alto:
+        ancho = len(matriz[nfilas])
+        num_elementos = 0
+        while num_elementos < ancho:
+            print matriz[nfilas][num_elementos],
+            num_elementos += 1
+        print
+        nfilas += 1
+
+
 def main():
     n = int(raw_input('Grado del sistema: '))
     if n > 1:
