@@ -49,19 +49,6 @@ def leer_matriz_cuadrada(n):
     return matriz
 
 
-def mostrar_matriz(matriz):
-    alto = len(matriz)
-    nfilas = 0
-    while nfilas < alto:
-        ancho = len(matriz[nfilas])
-        num_elementos = 0
-        while num_elementos < ancho:
-            print matriz[nfilas][num_elementos],
-            num_elementos += 1
-        print
-        nfilas += 1
-
-
 def leer_vector(n):
     vector = []
     nfilas = 0
