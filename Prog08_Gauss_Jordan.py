@@ -35,7 +35,8 @@ def main():
         print 'Vector b'
         b = array(leer_vector(n))
         x = gauss_jordan(A, b)
-        print 'Raices:', x
+        print 'Raices'
+        print x
 
 if __name__ == '__main__':
     main()
